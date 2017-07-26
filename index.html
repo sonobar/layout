@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title> complex layout 2 </title>
+        <style>
+            *{margin: 0px;padding: 0px;}
+            .header {
+                background-color: cadetblue; min-height: 75px;border: 1px solid black;overflow: hidden;box-sizing: border-box;}
+            .header_wrapper {min-height: 80px;width: 90%;margin: 0px auto;}
+            .logo {min-height: 45px;margin-top:15px;border: 1px solid black;width: 20%;float: left;box-sizing: border-box;background-color: antiquewhite}
+            
+            .menu_wrapper {width: 60%;min-height: 75px;float: right;margin-right: 3%;}
+            
+            .searchbar {width: 50%;min-height: 25px;border: 1px solid black;margin: 10px auto;box-sizing: border-box;background-color: antiquewhite}
+
+            .menubar {width: 100%;min-height: 30px;border: 1px solid black;box-sizing: border-box;background-color: antiquewhite}
+
+            .content {min-height: 530px;overflow: hidden;border: 1px solid black;background-color: darkseagreen}
+            
+            .sidebar 
+            {width: 25%;min-height: 600px;float: left;background-color: burlywood}
+
+            .sidebar_top 
+            {width: 80%;min-height: 170px;margin: 15px auto; border: 1px solid black;box-sizing: border-box;background-color: antiquewhite}
+
+            .sidebar_bottom 
+            {width: 80%; min-height: 410px; margin: 15px auto; border: 1px solid black; box-sizing: border-box;background-color: antiquewhite }
+
+            .main_content
+            {width: 75%; min-height: 600px; float: left;background-color:teal}
+
+            .long_content 
+            {width: 95%;border: 1px solid black;box-sizing: border-box;min-height: 45px;margin: 15px auto;background-color: bisque}
+
+            .wrapper_content 
+            {min-height: 535px;width: 100%; margin: 0px auto;}
+            
+            .left_content
+            {width: 30%;min-height: 535px;float: left;background-color: bisque}
+
+            .left_content_top 
+            {width: 88%;min-height: 283px;margin: 15px auto;border: 1px solid black;box-sizing: border-box;}
+
+            .left_content_bottom
+            {width: 88%;min-height: 220px;margin: 15px auto;border: 1px solid black;box-sizing: border-box;}
+
+            .wrapper_right_content 
+            { float: right;width: 70%;min-height: 535px;}
+
+            .right_content_top
+            {background-color:lightpink;width: 92%;border: 1px solid black;box-sizing: border-box;min-height: 70px;margin: 20px auto; }
+            
+            .right_content_bottom
+            {width: 92%;background-color: coralmin-height: 430px;margin: 10px auto;}
+
+            .right_content_left
+            {width: 45%;min-height: 420px;border: 1px solid black;box-sizing: border-box;float: left;}
+
+            .right_content_right
+            {width: 45%;min-height: 420px;border: 1px solid black;box-sizing: border-box;float: right;}
+
+           .footer 
+            {background-color: azure;overflow: hidden;min-height: 75px;border: 1px solid black;box-sizing: border-box;}
+
+            .copyright 
+            {min-height: 35px;width: 50%;border: 1px solid gray;margin: 20px auto;
+                background-color: coral}
+        </style>
+    </head>
+    <body>
+         <div class="header">
+            <div class="header_wrapper">
+                <div class="logo"></div>
+                <div class="menu_wrapper">
+                    <div class="searchbar"></div>
+                    <div class="menubar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="sidebar_top"></div>
+                <div class="sidebar_bottom"></div>
+            </div>
+            <div class="main_content">
+                <div class="long_content"></div>
+                <div class="wrapper_content">
+                    <div class="left_content">
+                        <div class="left_content_top"></div>
+                        <div class="left_content_bottom"></div>
+                      </div>  
+                    <div class="wrapper_right_content">
+                        <div class="right_content_top"></div>
+                        <div class="right_content_bottom">
+                            <div class="right_content_left"></div>
+                            <div class="right_content_right"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div></div></div>
+    <div class="footer">
+            <div class="copyright"></div>
+        </div>
+    </body>
+</html>
